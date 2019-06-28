@@ -1,5 +1,5 @@
 <?php
-	if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
+	if (!defined('FREEPBX_IS_AUTH')) { exit('No direct script access allowed'); }
 
 	$list = array(
 		'epm_oss' 			=> _('About OSS Endpoint Manager'),
